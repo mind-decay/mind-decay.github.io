@@ -5,7 +5,20 @@ import { FooterSocials } from './FooterSocials';
 
 import { ThemeProvider } from 'context/ThemeContext/ThemeContext';
 
-import { socialItems } from '../Footer';
+import { SocialItem } from '../types';
+
+const socialItems: SocialItem[] = [
+  {
+    name: 'Телеграм',
+    Icon: () => <svg></svg>,
+    href: 'https://t.me/mindDecay',
+  },
+  {
+    name: 'Хабр Карьера',
+    Icon: () => <svg></svg>,
+    href: 'https://career.habr.com/minddecay',
+  },
+];
 
 test('renders footer socials', () => {
   const { getByRole } = render(

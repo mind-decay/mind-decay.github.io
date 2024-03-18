@@ -3,8 +3,9 @@ import '@testing-library/jest-dom';
 
 import { SkillsList } from './SkillsList';
 
-import { skillsData } from '../Skills';
 import { ThemeProvider } from 'context/ThemeContext/ThemeContext';
+
+const skillsData = ['HTML', 'CSS', 'SCSS'];
 
 test('renders SkillsList based on array of skills', () => {
   const { getByRole } = render(

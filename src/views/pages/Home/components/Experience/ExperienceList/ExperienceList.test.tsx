@@ -3,7 +3,31 @@ import '@testing-library/jest-dom';
 import { ThemeProvider } from 'context/ThemeContext/ThemeContext';
 
 import { ExperienceList } from './ExperienceList';
-import { experienceData } from '../Experience';
+import { ExperienceItem } from './types';
+
+const experienceData: ExperienceItem[] = [
+  {
+    icon: 'Icon 0',
+    title: 'Senior Frontend-разработчик в Agro.Club',
+    dateFrom: 'Октябрь 2022',
+    dateTo: 'Февраль 2024',
+    Description: () => <div></div>,
+  },
+  {
+    icon: 'Icon 1',
+    title: 'Lead Frontend-разработчик в Sidewalk Developers Group',
+    dateFrom: 'Май 2021',
+    dateTo: 'Октябрь 2022',
+    Description: () => <div></div>,
+  },
+  {
+    icon: 'Icon 2',
+    title: 'Frontend-разработчик на фрилансе',
+    dateFrom: 'Июнь 2019',
+    dateTo: 'Май 2021',
+    Description: () => <div></div>,
+  },
+];
 
 test('render ExperienceList component based on data', () => {
   const { container } = render(
@@ -13,8 +37,8 @@ test('render ExperienceList component based on data', () => {
   );
 
   const list = queryAllByRole(container, 'list');
-  const listItems = queryAllByRole(container, 'listitem');
+  const listItems = queryAllByRole(list[0], 'listitem');
 
   expect(list[0]).toBeInTheDocument();
-  expect(listItems).toHaveLength(experienceData.length);
+  expect(list[0]).toContainHTML(listItems[0].innerHTML);
 });

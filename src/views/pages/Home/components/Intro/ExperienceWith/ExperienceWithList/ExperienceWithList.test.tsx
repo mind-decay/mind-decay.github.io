@@ -1,8 +1,33 @@
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 
-import { ExperienceWithList, skillsIcons } from './ExperienceWithList';
+import { ExperienceWithList } from './ExperienceWithList';
 import { ThemeProvider } from 'context/ThemeContext/ThemeContext';
+
+import { SkillIcon } from '../types';
+
+export const skillsIcons: SkillIcon[] = [
+  {
+    gradientId: '0',
+    Icon: () => <svg></svg>,
+  },
+  {
+    gradientId: '1',
+    Icon: () => <svg></svg>,
+  },
+  {
+    gradientId: '2',
+    Icon: () => <svg></svg>,
+  },
+  {
+    gradientId: '3',
+    Icon: () => <svg></svg>,
+  },
+  {
+    gradientId: '4',
+    Icon: () => <svg></svg>,
+  },
+];
 
 test('renders ExperienceWithList component', () => {
   const { container } = render(
