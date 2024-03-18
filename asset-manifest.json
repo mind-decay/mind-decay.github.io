@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.js": "/static/js/main.fe12236f.js",
+    "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/Avatar.png": "/static/media/Avatar.95c8aed2e39f9348fbd3.png",
+    "static/media/PlusJakartaSans-Medium.ttf": "/static/media/PlusJakartaSans-Medium.b1ea1e4a874b401f584a.ttf",
+    "static/media/Poppins-Regular.woff": "/static/media/Poppins-Regular.181234e98864f0afea8f.woff",
+    "static/media/Poppins-Light.woff": "/static/media/Poppins-Light.3f44d7537a7bb34d422e.woff",
+    "static/media/Poppins-SemiBold.woff": "/static/media/Poppins-SemiBold.62763107dfeae7e8b70e.woff",
+    "static/media/Poppins-Bold.woff": "/static/media/Poppins-Bold.86f573478cac1767ec66.woff",
+    "static/media/Poppins-ExtraBold.woff": "/static/media/Poppins-ExtraBold.dd485c86bf39b42e70f0.woff",
+    "static/media/CV.pdf": "/static/media/CV.62fc8ea20ceae5d8fb2c.pdf",
+    "static/media/Poppins-Regular.woff2": "/static/media/Poppins-Regular.408e3747283ff9538aca.woff2",
+    "static/media/Poppins-SemiBold.woff2": "/static/media/Poppins-SemiBold.52dd35dd25ef4bfb1ae0.woff2",
+    "static/media/Poppins-Light.woff2": "/static/media/Poppins-Light.58622449c0f73969f012.woff2",
+    "static/media/Poppins-ExtraBold.woff2": "/static/media/Poppins-ExtraBold.c8a7d657d518a9714224.woff2",
+    "static/media/Poppins-Bold.woff2": "/static/media/Poppins-Bold.972862cb62a56c48cad3.woff2",
+    "static/media/PlusJakartaSans-Medium.woff": "/static/media/PlusJakartaSans-Medium.988fea30a29e6e37ce2b.woff",
+    "static/media/PlusJakartaSans-Medium.woff2": "/static/media/PlusJakartaSans-Medium.35f64f6bd76ceb6edc5d.woff2",
+    "static/media/AgroClubLogo.png": "/static/media/AgroClubLogo.f413ed855d06184bc380.png",
+    "static/media/HabrLogo.svg": "/static/media/HabrLogo.14872adeb4ddccd6356f9e14a91c9563.svg",
+    "static/media/FreelanceIcon.png": "/static/media/FreelanceIcon.f5c90976eba2913310fd.png",
+    "static/media/ReactIcon.svg": "/static/media/ReactIcon.fd9adfa4c0c582b231f4c458950ed8d7.svg",
+    "static/media/NextJSIcon.svg": "/static/media/NextJSIcon.0188a03ac826b1aeee08d7c98a579e93.svg",
+    "static/media/sunIcon.svg": "/static/media/sunIcon.2f2c1b52753248ded4fe43630baf3a3a.svg",
+    "static/media/JSIcon.svg": "/static/media/JSIcon.6b2f9cec7acc37cd8dfdc9422517e294.svg",
+    "static/media/Logo.svg": "/static/media/Logo.54f7e07d3d447572a887d3010594d7a3.svg",
+    "static/media/CssIcon.svg": "/static/media/CssIcon.8545ea352803c376dafd35a3d8d6e703.svg",
+    "static/media/moonIcon.svg": "/static/media/moonIcon.a974eeb6e0cf0b0f45a7a60e91c29636.svg",
+    "static/media/HtmlIcon.svg": "/static/media/HtmlIcon.a0c115668c25fae3b9e1eb6edd73f011.svg",
+    "static/media/TelegramIcon.svg": "/static/media/TelegramIcon.d942b96a5efbd442d45632fde0953bcb.svg",
+    "index.html": "/index.html",
+    "static/media/EmailIcon.svg": "/static/media/EmailIcon.a4f27aad62dd32acb6a10966004123a5.svg",
+    "main.fe12236f.js.map": "/static/js/main.fe12236f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fe12236f.js"
+  ]
+}
