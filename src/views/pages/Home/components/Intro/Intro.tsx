@@ -23,7 +23,7 @@ export const Intro = () => {
         </IntroInfo>
 
         <IntroButtons>
-          <Button variant="primary" href={menuRoutes.Contact}>
+          <Button variant="primary" to={menuRoutes.Contact}>
             Связаться
           </Button>
 

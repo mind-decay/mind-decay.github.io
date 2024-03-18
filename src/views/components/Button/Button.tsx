@@ -1,14 +1,22 @@
-import { StyledButton } from './Button.styled';
-import { AnchorType, ButtonType } from './types';
+import { StyledAnchor, StyledButton, StyledLink } from './Button.styled';
+import { AnchorType, ButtonType, LinkType } from './types';
 
-type ButtonProps = ButtonType | AnchorType;
+type ButtonProps = ButtonType | AnchorType | LinkType;
 
-export const Button = ({ variant, onClick, href, target, children }: ButtonProps) => {
+export const Button = ({ variant, onClick, href, target, to, children }: ButtonProps) => {
+  if (to) {
+    return (
+      <StyledLink to={to} $variant={variant}>
+        {children}
+      </StyledLink>
+    );
+  }
+
   if (href) {
     return (
-      <StyledButton as="a" href={href} target={target} $variant={variant}>
+      <StyledAnchor href={href} target={target} $variant={variant}>
         {children}
-      </StyledButton>
+      </StyledAnchor>
     );
   }
 
