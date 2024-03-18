@@ -6,7 +6,7 @@ export const ExperienceWith = () => {
   return (
     <ExperienceWithContainer>
       <ExperienceWithTitle>
-        <Title variant="h4" tag="h3">
+        <Title variant="h4" tag="h2">
           работаю с
         </Title>
       </ExperienceWithTitle>

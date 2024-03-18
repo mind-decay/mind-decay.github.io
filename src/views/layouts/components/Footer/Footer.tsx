@@ -11,17 +11,17 @@ import {
 import { ReactComponent as EmailIcon } from 'assets/images/EmailIcon.svg';
 import { ReactComponent as TelegramIcon } from 'assets/images/TelegramIcon.svg';
 import { ReactComponent as HabrIcon } from 'assets/images/HabrLogo.svg';
-import { socialItem } from './types';
+import { SocialItem } from './types';
 import { FooterSocials } from './FooterSocials/FooterSocials';
 
-export const socialItems: socialItem[] = [
+export const socialItems: SocialItem[] = [
   {
-    name: 'Telegram',
+    name: 'Телеграм',
     Icon: TelegramIcon,
     href: 'https://t.me/mindDecay',
   },
   {
-    name: 'Habr Career',
+    name: 'Хабр Карьера',
     Icon: HabrIcon,
     href: 'https://career.habr.com/minddecay',
   },

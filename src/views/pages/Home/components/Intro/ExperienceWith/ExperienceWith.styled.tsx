@@ -13,7 +13,7 @@ export const ExperienceWithContainer = styled.div`
 `;
 
 export const ExperienceWithTitle = styled.div`
-  h3 {
+  h2 {
     letter-spacing: 0.24rem;
     text-transform: uppercase;
     color: ${({ theme }) => theme.colors.text};

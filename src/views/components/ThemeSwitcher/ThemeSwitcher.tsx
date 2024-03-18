@@ -9,6 +9,8 @@ export const ThemeSwitcher = () => {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <StyledThemeSwitcher onClick={toggleTheme}>{theme === 'dark' ? <SunIcon /> : <MoonIcon />}</StyledThemeSwitcher>
+    <StyledThemeSwitcher onClick={toggleTheme} aria-label="Переключить тему">
+      {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
+    </StyledThemeSwitcher>
   );
 };

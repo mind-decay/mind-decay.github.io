@@ -13,7 +13,7 @@ export const DescriptionList = styled.ul`
   row-gap: 1rem;
 `;
 
-export const DescriptionListItem = styled.div`
+export const DescriptionListItem = styled.li`
   position: relative;
   padding-left: 1.5rem;
   ${typography.text};

@@ -18,7 +18,7 @@ export const Header = () => {
     <>
       <HeaderWrapper>
         <HeaderNav>
-          <HeaderLogo to={menuRoutes.Home}>
+          <HeaderLogo to={menuRoutes.Home} aria-label="Логотип при нажатии на который прокручивает до секции Интро">
             <Logo />
           </HeaderLogo>
           <HeaderMenu isVisible={isMobileNavVisible} onClick={handleMobileNavVisible} menuOptions={mainMenuOptions} />

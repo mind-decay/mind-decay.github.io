@@ -1,8 +1,8 @@
-import { socialItem } from '../types';
+import { SocialItem } from '../types';
 import { FooterSocialsItem, FooterSocialsList } from './FooterSocials.styled';
 
 type FooterSocialsProps = {
-  socials: socialItem[];
+  socials: SocialItem[];
 };
 
 export const FooterSocials = ({ socials }: FooterSocialsProps) => {
@@ -11,7 +11,7 @@ export const FooterSocials = ({ socials }: FooterSocialsProps) => {
       {socials.map(({ name, Icon, href }) => {
         return (
           <FooterSocialsItem key={name}>
-            <a href={href} target="_blank" rel="noreferrer">
+            <a href={href} target="_blank" rel="noreferrer" aria-label={`Ссылка на ${name}`}>
               <Icon />
             </a>
           </FooterSocialsItem>
