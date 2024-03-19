@@ -1,11 +1,11 @@
 import { RequestBody, RequestMethod, urlParams } from 'types/api';
 import { stringify } from '../stringify';
 import { apiErrorsHandler } from './apiErrorsHandler';
-import { environment } from 'env';
+import { BASE_URL } from '../../constants';
 
-const prepareUrl = (url: string, params: urlParams | null) => {
+const prepareUrl = (url: string, params: urlParams | null, baseURL: string) => {
   const stringifiedParams = stringify(params);
-  const preparedURL = `${environment.BaseURL}/${url}?${stringifiedParams}`;
+  const preparedURL = `${baseURL}/${url}?${stringifiedParams}`;
   const encode = encodeURI(preparedURL);
 
   return encode;
@@ -17,9 +17,10 @@ export const performRequest = async <T>(
   method: RequestMethod,
   options: RequestInit | undefined,
   body: RequestBody | null,
+  baseURL: string,
 ): Promise<T> => {
   try {
-    const preparedURL = prepareUrl(url, params);
+    const preparedURL = prepareUrl(url, params, baseURL);
 
     const response = await fetch(preparedURL, {
       method: method || 'GET',
@@ -43,20 +44,32 @@ export const performRequest = async <T>(
   }
 };
 
-const get = <T>(url: string, params?: urlParams, options?: RequestInit): Promise<T | void> => {
-  return performRequest<T>(url, params || null, 'GET', options, null);
+const get = <T>(url: string, params?: urlParams, options?: RequestInit, baseURL?: string): Promise<T | void> => {
+  return performRequest<T>(url, params || null, 'GET', options, null, baseURL || BASE_URL);
 };
 
-const post = <T>(url: string, params?: urlParams, options?: RequestInit, body?: RequestBody): Promise<T | void> => {
-  return performRequest<T>(url, params || null, 'POST', options, body || null);
+const post = <T>(
+  url: string,
+  params?: urlParams,
+  options?: RequestInit,
+  body?: RequestBody,
+  baseURL?: string,
+): Promise<T | void> => {
+  return performRequest<T>(url, params || null, 'POST', options, body || null, baseURL || BASE_URL);
 };
 
-const put = <T>(url: string, params?: urlParams, options?: RequestInit, body?: RequestBody): Promise<T | void> => {
-  return performRequest<T>(url, params || null, 'PUT', options, body || null);
+const put = <T>(
+  url: string,
+  params?: urlParams,
+  options?: RequestInit,
+  body?: RequestBody,
+  baseURL?: string,
+): Promise<T | void> => {
+  return performRequest<T>(url, params || null, 'PUT', options, body || null, baseURL || BASE_URL);
 };
 
-const del = <T>(url: string, params?: urlParams, options?: RequestInit): Promise<T | void> => {
-  return performRequest<T>(url, params || null, 'DELETE', options, null);
+const del = <T>(url: string, baseURL?: string, params?: urlParams, options?: RequestInit): Promise<T | void> => {
+  return performRequest<T>(url, params || null, 'DELETE', options, null, baseURL || BASE_URL);
 };
 
 export const apiClient = {

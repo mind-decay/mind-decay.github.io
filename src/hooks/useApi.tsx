@@ -8,9 +8,10 @@ export const useApi = <T, Args extends unknown[] = unknown[]>(
   const [error, setError] = useState<ErrorType | null>(null);
 
   const performRequest = async (...args: Args): Promise<T> => {
+    setIsLoading(true);
+
     try {
       const response = await request(...args);
-      setIsLoading(true);
       setError(null);
 
       return response;
