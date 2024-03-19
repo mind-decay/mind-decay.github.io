@@ -41,7 +41,8 @@ export const IntroInfo = styled.div`
 
 export const IntroImage = styled.div`
   display: flex;
-  max-width: 250px;
+  width: 250px;
+  height: 250px;
 `;
 
 export const IntroButtons = styled.div`
