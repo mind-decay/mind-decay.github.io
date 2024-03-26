@@ -1,11 +1,13 @@
 import { useState } from 'react';
+
 import { ErrorType, isErrorType } from 'types/api';
+import { Nullable } from 'types/helpers';
 
 export const useApi = <T, Args extends unknown[] = unknown[]>(
   request: (...args: Args) => Promise<T>,
-): [typeof isLoading, typeof request, typeof error | null] => {
+): [typeof isLoading, typeof request, Nullable<typeof error>] => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [error, setError] = useState<ErrorType | null>(null);
+  const [error, setError] = useState<Nullable<ErrorType>>(null);
 
   const performRequest = async (...args: Args): Promise<T> => {
     setIsLoading(true);

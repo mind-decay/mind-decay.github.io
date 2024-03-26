@@ -1,9 +1,13 @@
-import { RequestBody, RequestMethod, urlParams } from 'types/api';
 import { stringify } from '../stringify';
 import { apiErrorsHandler } from './apiErrorsHandler';
+
+import { RequestBody, RequestMethod, urlParams } from 'types/api';
+import { Nullable } from 'types/helpers';
+import { MaybeUndefined } from 'types/helpers';
+
 import { BASE_URL } from '../../constants';
 
-const prepareUrl = (url: string, params: urlParams | null, baseURL: string) => {
+const prepareUrl = (url: string, params: Nullable<urlParams>, baseURL: string) => {
   const stringifiedParams = stringify(params);
   const preparedURL = `${baseURL}/${url}?${stringifiedParams}`;
   const encode = encodeURI(preparedURL);
@@ -13,10 +17,10 @@ const prepareUrl = (url: string, params: urlParams | null, baseURL: string) => {
 
 export const performRequest = async <T>(
   url: string,
-  params: urlParams | null,
+  params: Nullable<urlParams>,
   method: RequestMethod,
-  options: RequestInit | undefined,
-  body: RequestBody | null,
+  options: MaybeUndefined<RequestInit>,
+  body: Nullable<RequestBody>,
   baseURL: string,
 ): Promise<T> => {
   try {

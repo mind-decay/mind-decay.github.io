@@ -1,9 +1,12 @@
 import { apiErrorsHandler } from './../utils/api/apiErrorsHandler';
+
+import { Nullable } from './helpers';
+
 export type urlParams = Record<string, string | number | boolean>;
 
 export type RequestMethod = 'GET' | 'POST' | 'PUT' | 'DELETE';
 
-export type RequestBody = Record<string, unknown> | null;
+export type RequestBody = Nullable<Record<string, unknown>>;
 
 export type ErrorType = ReturnType<typeof apiErrorsHandler>;
 

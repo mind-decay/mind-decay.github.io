@@ -1,7 +1,9 @@
 import { DefaultTheme } from 'styled-components';
-import { GradientName } from './types';
 
-export const getTitleGradient = (theme: DefaultTheme, gradient: GradientName | undefined) => {
+import { GradientName } from './types';
+import { MaybeUndefined } from 'types/helpers';
+
+export const getTitleGradient = (theme: DefaultTheme, gradient: MaybeUndefined<GradientName>) => {
   switch (gradient) {
     case 'mainGradient':
       return theme.gradients.mainGradient;

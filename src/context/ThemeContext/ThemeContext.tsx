@@ -1,9 +1,12 @@
 import { ReactNode, createContext, useContext, useEffect, useState } from 'react';
-import { ThemeContextType, ThemeType, isThemeType } from './types';
 import { ThemeProvider as StyledThemeProvider } from 'styled-components';
+
+import { ThemeContextType, ThemeType, isThemeType } from './types';
+import { Nullable } from 'types/helpers';
+
 import { darkTheme, lightTheme } from 'styles/themes';
 
-const ThemeContext = createContext<ThemeContextType | null>(null);
+const ThemeContext = createContext<Nullable<ThemeContextType>>(null);
 
 export const useTheme = (): ThemeContextType => {
   const context = useContext(ThemeContext);

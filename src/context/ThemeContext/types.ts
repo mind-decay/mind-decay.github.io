@@ -1,3 +1,5 @@
+import { Nullable } from './../../types/helpers';
+
 export type ThemeType = 'light' | 'dark';
 
 export type ThemeContextType = {
@@ -5,6 +7,6 @@ export type ThemeContextType = {
   toggleTheme: () => void;
 };
 
-export const isThemeType = (theme: string | null): theme is ThemeType => {
+export const isThemeType = (theme: Nullable<string>): theme is ThemeType => {
   return typeof theme === 'string' && ['light', 'dark'].includes(theme);
 };
