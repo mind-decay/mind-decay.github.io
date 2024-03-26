@@ -1,22 +1,24 @@
+import { Suspense, lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
+import { Loader } from 'views/components/Loader/Loader';
 import { Wrapper } from './components/Wrapper';
-import { MainLayout } from 'views/layouts/MainLayout/MainLayout';
 
 import { mainRoutes } from './routes';
-import { Home } from 'views/pages/Home/Home';
-import { useScrollToAnchor } from 'hooks/useScrollToAnchor';
+
+const MainLayout = lazy(() => import('views/layouts/MainLayout/MainLayout'));
+const Home = lazy(() => import('views/pages/Home/Home'));
 
 export const RootComponent = () => {
-  useScrollToAnchor();
-
   return (
-    <Wrapper>
-      <Routes>
-        <Route element={<MainLayout />}>
-          <Route path={mainRoutes.Root} element={<Home />} />
-        </Route>
-      </Routes>
-    </Wrapper>
+    <Suspense fallback={<Loader />}>
+      <Wrapper>
+        <Routes>
+          <Route element={<MainLayout />}>
+            <Route path={mainRoutes.Root} element={<Home />} />
+          </Route>
+        </Routes>
+      </Wrapper>
+    </Suspense>
   );
 };

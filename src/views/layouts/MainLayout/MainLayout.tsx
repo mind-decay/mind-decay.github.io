@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 import { MainLayoutContent, MainLayoutContentWrapper, MainLayoutWrapper } from './MainLayout.styled';
 import { Footer, Header } from '../components';
 
-export const MainLayout = () => {
+const MainLayout = () => {
   return (
     <MainLayoutWrapper>
       <Header />
@@ -18,3 +18,5 @@ export const MainLayout = () => {
     </MainLayoutWrapper>
   );
 };
+
+export default MainLayout;

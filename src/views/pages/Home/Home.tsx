@@ -2,7 +2,11 @@ import { Experience } from './components/Experience/Experience';
 import { Intro } from './components/Intro/Intro';
 import { Skills } from './components/Skills/Skills';
 
-export const Home = () => {
+import { useScrollToAnchor } from 'hooks/useScrollToAnchor';
+
+const Home = () => {
+  useScrollToAnchor();
+
   return (
     <>
       <Intro />
@@ -13,3 +17,5 @@ export const Home = () => {
     </>
   );
 };
+
+export default Home;

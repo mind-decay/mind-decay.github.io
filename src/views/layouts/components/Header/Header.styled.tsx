@@ -20,6 +20,10 @@ export const HeaderNav = styled.nav`
   max-width: ${screenBreakpoints.laptop}px;
   padding: 2.5rem 4rem;
   margin: 0 auto;
+
+  @media screen and (max-width: ${screenBreakpoints.tablet}px) {
+    padding: 2rem;
+  }
 `;
 
 export const HeaderLogo = styled(Link)`

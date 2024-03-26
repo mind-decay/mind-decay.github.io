@@ -27,6 +27,6 @@ export const MainLayoutContent = styled.main`
   margin: 0 auto;
 
   @media screen and (max-width: ${screenBreakpoints.tablet}px) {
-    padding: 4rem 2rem;
+    padding: 2rem;
   }
 `;
