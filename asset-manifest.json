@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.47bf4b44.js",
-    "static/js/436.d77c7d9b.chunk.js": "/static/js/436.d77c7d9b.chunk.js",
-    "static/js/21.dac3ffff.chunk.js": "/static/js/21.dac3ffff.chunk.js",
+    "main.js": "/static/js/main.eb2b3b84.js",
+    "static/js/436.f6ed457a.chunk.js": "/static/js/436.f6ed457a.chunk.js",
+    "static/js/837.9526f439.chunk.js": "/static/js/837.9526f439.chunk.js",
     "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
     "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
     "static/media/Poppins-SemiBold.ttf": "/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
@@ -37,11 +37,11 @@
     "static/media/TelegramIcon.svg": "/static/media/TelegramIcon.d942b96a5efbd442d45632fde0953bcb.svg",
     "index.html": "/index.html",
     "static/media/EmailIcon.svg": "/static/media/EmailIcon.a4f27aad62dd32acb6a10966004123a5.svg",
-    "main.47bf4b44.js.map": "/static/js/main.47bf4b44.js.map",
-    "436.d77c7d9b.chunk.js.map": "/static/js/436.d77c7d9b.chunk.js.map",
-    "21.dac3ffff.chunk.js.map": "/static/js/21.dac3ffff.chunk.js.map"
+    "main.eb2b3b84.js.map": "/static/js/main.eb2b3b84.js.map",
+    "436.f6ed457a.chunk.js.map": "/static/js/436.f6ed457a.chunk.js.map",
+    "837.9526f439.chunk.js.map": "/static/js/837.9526f439.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.47bf4b44.js"
+    "static/js/main.eb2b3b84.js"
   ]
 }
