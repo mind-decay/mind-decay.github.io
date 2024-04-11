@@ -13,8 +13,8 @@
     "test-snap-update": "vitest -u",
     "test:ui": "vitest --ui",
     "test:watch": "vitest",
-    "predeploy": "npm run dist",
-    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "prepare": "husky",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,md}\""
   },
