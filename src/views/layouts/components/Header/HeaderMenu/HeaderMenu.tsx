@@ -6,28 +6,7 @@ import { useMedia } from 'hooks';
 
 import { MenuOption } from './types';
 
-import { menuRoutes } from './routes';
-
 import { screenBreakpoints } from 'styles';
-
-export const mainMenuOptions: MenuOption[] = [
-  {
-    key: menuRoutes.Home,
-    value: 'Интро',
-  },
-  {
-    key: menuRoutes.Skills,
-    value: 'Навыки',
-  },
-  {
-    key: menuRoutes.Experience,
-    value: 'Опыт',
-  },
-  {
-    key: menuRoutes.Contact,
-    value: 'Связаться',
-  },
-];
 
 type HeaderMenuProps = {
   menuOptions: MenuOption[];

@@ -1,4 +1,4 @@
-import { useLayoutEffect, useState } from 'react';
+import { useCallback, useLayoutEffect, useState } from 'react';
 
 export const useMedia = (query: string): boolean => {
   const getMatch = (query: string) => {
@@ -7,9 +7,9 @@ export const useMedia = (query: string): boolean => {
 
   const [matches, setMatches] = useState<boolean>(false);
 
-  const handleChange = () => {
+  const handleChange = useCallback(() => {
     setMatches(getMatch(query));
-  };
+  }, [query]);
 
   useLayoutEffect(() => {
     const matchMedia = window.matchMedia(query);
@@ -20,7 +20,7 @@ export const useMedia = (query: string): boolean => {
     matchMedia.addEventListener('change', handleChange);
 
     return () => matchMedia.removeEventListener('change', handleChange);
-  }, [query]);
+  }, [query, handleChange]);
 
   return matches;
 };

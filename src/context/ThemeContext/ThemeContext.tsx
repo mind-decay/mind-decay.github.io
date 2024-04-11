@@ -1,4 +1,4 @@
-import { ReactNode, createContext, useContext, useEffect, useState } from 'react';
+import { ReactNode, createContext, useEffect, useState } from 'react';
 import { ThemeProvider as StyledThemeProvider } from 'styled-components';
 
 import { ThemeContextType, ThemeType, isThemeType } from './types';
@@ -6,17 +6,7 @@ import { Nullable } from 'types';
 
 import { darkTheme, lightTheme } from 'styles';
 
-const ThemeContext = createContext<Nullable<ThemeContextType>>(null);
-
-export const useTheme = (): ThemeContextType => {
-  const context = useContext(ThemeContext);
-
-  if (!context) {
-    throw new Error('useTheme must be used within a ThemeProvider');
-  }
-
-  return context;
-};
+export const ThemeContext = createContext<Nullable<ThemeContextType>>(null);
 
 type ThemeProviderProps = {
   children: ReactNode;

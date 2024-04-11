@@ -6,7 +6,8 @@ import { BrowserRouter } from 'react-router-dom';
 
 import { ThemeProvider } from 'context/ThemeContext';
 
-import { HeaderMenu, mainMenuOptions } from './HeaderMenu';
+import { HeaderMenu } from './HeaderMenu';
+import { mainMenuOptions } from './constants';
 
 test('renders header menu', () => {
   const handler = vi.fn();
