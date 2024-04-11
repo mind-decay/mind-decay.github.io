@@ -1,0 +1,416 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders Experience section 1`] = `
+<div>
+  <section
+    class="sc-beySPh cSdoRX"
+    id="experience"
+  >
+    <h2
+      class="sc-dmyCSP bKfxDg"
+    >
+      Опыт Работы
+    </h2>
+    <ul
+      class="sc-gLLuof hrQZin"
+    >
+      <li
+        class="sc-iBdnpw ezHqEe"
+      >
+        <div
+          class="sc-fsYfdN hUaoJX"
+        >
+          <div
+            class="sc-qZrbh gEguwx"
+          >
+            <div
+              class="sc-jsEeTM cvuTQX"
+            >
+              <picture>
+                <source
+                  srcset="/src/assets/images/AgroClubLogo.webp"
+                  type="image/webp"
+                />
+                <img
+                  alt="Senior Frontend-разработчик в Agro.Club"
+                  height="32"
+                  loading="lazy"
+                  src="/src/assets/images/AgroClubLogo.png"
+                  width="32"
+                />
+              </picture>
+            </div>
+            <h3
+              class="sc-hLQSwg loxgvM"
+            >
+              Senior Frontend-разработчик в Agro.Club
+            </h3>
+          </div>
+          <p
+            class="sc-jTQCzO gtaWj"
+          >
+            Октябрь 2022
+             - 
+            Февраль 2024
+          </p>
+        </div>
+        <div
+          class="sc-kFCroH iNDQYz"
+        >
+          <h4
+            class="sc-eDLKkx kkxFzJ"
+          >
+            Обязанности:
+          </h4>
+          <ul
+            class="sc-irLvIq faxKLD"
+          >
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Участвовал в разработке 3-х проектов компании
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Разрабатывал UI-kit используемый для проектов компании
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Разрабатывал новый функционал проектов в связке с дизайнером и бэкэнд разработчиками
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Рефакторил и оптимизировал существующую кодовую базу
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Код ревью
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Писал тесты
+            </li>
+          </ul>
+        </div>
+        <div
+          class="sc-kFCroH iNDQYz"
+        >
+          <h4
+            class="sc-eDLKkx kkxFzJ"
+          >
+            Достижения:
+          </h4>
+          <ul
+            class="sc-irLvIq faxKLD"
+          >
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Разработал новый проект в короткие сроки, после чего занимался его поддержкой и развитием
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Написал новые фронтовые нотификации - уменьшил количество кода, написал новые компоненты, расширил функционал, уменьшил бойлерплейт
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Обновил модальные окна и многократно упростил работу с ними
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Сделал более подробную систему сбора аналитики на фронте, работая в сотрудничестве с аналитиком внутри команды
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Разработал логику и компоненты для работы с multi-step формами
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Привёл множество компонентов к новому дизайну и отрефакторил старый код
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Разработал функционал интерактивного туториала, для простого онбординга новых пользователей
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li
+        class="sc-iBdnpw ezHqEe"
+      >
+        <div
+          class="sc-fsYfdN hUaoJX"
+        >
+          <div
+            class="sc-qZrbh gEguwx"
+          >
+            <div
+              class="sc-jsEeTM cvuTQX"
+            >
+              <picture>
+                <source
+                  srcset="/src/assets/images/SdgLogo.webp"
+                  type="image/webp"
+                />
+                <img
+                  alt="Lead Frontend-разработчик в Sidewalk Developers Group"
+                  height="32"
+                  loading="lazy"
+                  src="/src/assets/images/SdgLogo.png"
+                  width="32"
+                />
+              </picture>
+            </div>
+            <h3
+              class="sc-hLQSwg loxgvM"
+            >
+              Lead Frontend-разработчик в Sidewalk Developers Group
+            </h3>
+          </div>
+          <p
+            class="sc-jTQCzO gtaWj"
+          >
+            Май 2021
+             - 
+            Октябрь 2022
+          </p>
+        </div>
+        <div
+          class="sc-kFCroH iNDQYz"
+        >
+          <h4
+            class="sc-eDLKkx kkxFzJ"
+          >
+            Обязанности:
+          </h4>
+          <ul
+            class="sc-irLvIq faxKLD"
+          >
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Проектирование архитектуры проектов
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Координация работы членов команды frontend разработки
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Разработка UI-kit для проектов компании
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Создание новых компонентов и страниц
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Коммуникация с руководством, с последующим описанием, декомпозицией задач и передачей их в исполнение другим участникам команды frontend разработки
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Код ревью
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Рефакторинг и оптимизация проектов клиентов компании
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Написание тестов для компонентов и страниц
+            </li>
+          </ul>
+        </div>
+        <div
+          class="sc-kFCroH iNDQYz"
+        >
+          <h4
+            class="sc-eDLKkx kkxFzJ"
+          >
+            Достижения:
+          </h4>
+          <ul
+            class="sc-irLvIq faxKLD"
+          >
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Разработал простой и удобный UI-kit совместно с дизайнером внутри команды
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Написал с нуля 4 проекта
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Перевёл один из проектов заказчика с Vue2/Nuxt на Next.js
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Ввёл style guide для команды
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Лидил команду frontend разработки весь период работы
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Внедрил код ревью в процесс разработки проектов внутри компании
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Создал удобный workspace в Notion для хранения интересных и полезных ресурсов связанных с разработкой, для членов команды
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li
+        class="sc-iBdnpw ezHqEe"
+      >
+        <div
+          class="sc-fsYfdN hUaoJX"
+        >
+          <div
+            class="sc-qZrbh gEguwx"
+          >
+            <div
+              class="sc-jsEeTM cvuTQX"
+            >
+              <picture>
+                <source
+                  srcset="/src/assets/images/FreelanceIcon.webp"
+                  type="image/webp"
+                />
+                <img
+                  alt="Frontend-разработчик на фрилансе"
+                  height="32"
+                  loading="lazy"
+                  src="/src/assets/images/FreelanceIcon.png"
+                  width="32"
+                />
+              </picture>
+            </div>
+            <h3
+              class="sc-hLQSwg loxgvM"
+            >
+              Frontend-разработчик на фрилансе
+            </h3>
+          </div>
+          <p
+            class="sc-jTQCzO gtaWj"
+          >
+            Июнь 2019
+             - 
+            Май 2021
+          </p>
+        </div>
+        <div
+          class="sc-kFCroH iNDQYz"
+        >
+          <h4
+            class="sc-eDLKkx kkxFzJ"
+          >
+            Обязанности:
+          </h4>
+          <ul
+            class="sc-irLvIq faxKLD"
+          >
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Переговоры и уточнение требований с заказчиком
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Анализ макета для последующего создания библиотеки компонентов
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Разрабатывал многостраничные сайты и лендинги на чистом HTML/CSS/JS, а также веб-приложения на React/TypeScript
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Занимался рефакторингом и оптимизацией уже существующих проектов
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Работал с несколькими иностранными студиями, в качестве внештатного работника
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Переводил старые сайты с jquery на современный HTML/CSS/JavaScript либо же React/Next.js
+            </li>
+          </ul>
+        </div>
+        <div
+          class="sc-kFCroH iNDQYz"
+        >
+          <h4
+            class="sc-eDLKkx kkxFzJ"
+          >
+            Достижения:
+          </h4>
+          <ul
+            class="sc-irLvIq faxKLD"
+          >
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Разработал более 40 проектов на чистом HTML/CSS/JS
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Разработал более 60 проектов на React/TypeScript
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Успешно завершил более 100 заказов
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Активно работал с GSAP и другими библиотеками для создания комплексных анимаций
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Смог успешно закрепится на международным рынке фриланса, несмотря на конкуренцию
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </section>
+</div>
+`;

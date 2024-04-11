@@ -1,0 +1,209 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders Skills section 1`] = `
+<div>
+  <section
+    class="sc-jTQCzO bJvUwC"
+    id="skills"
+  >
+    <h2
+      class="sc-guDLey dFIBZG"
+    >
+      Навыки
+    </h2>
+    <ul
+      class="sc-gLLuof dpOfjX"
+    >
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          HTML
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          CSS
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          SCSS
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Styled-Components
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Tailwindcss
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          JavaScript
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          TypeScript
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          React
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Next.js
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Solid.js
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Redux
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Effector
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Webpack
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Vite
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Rollup
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Gulp
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Jest
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          React Testing Library
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Cypress
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Playwright
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          REST API
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Formik
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          React Hook Form
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Axios
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          AntD
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          MUI
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw jHwcng"
+      >
+        <span>
+          Chakra UI
+        </span>
+      </li>
+    </ul>
+  </section>
+</div>
+`;

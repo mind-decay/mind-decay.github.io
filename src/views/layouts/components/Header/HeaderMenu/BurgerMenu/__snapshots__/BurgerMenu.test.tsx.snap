@@ -1,0 +1,35 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders burger menu 1`] = `
+<div>
+  <button
+    aria-label="Открыть меню"
+    class="sc-beySPh ihpJIx active"
+    type="button"
+  >
+    <svg>
+      <line
+        shape-rendering="crispEdges"
+        x1="0"
+        x2="100%"
+        y1="50%"
+        y2="50%"
+      />
+      <line
+        shape-rendering="crispEdges"
+        x1="0"
+        x2="100%"
+        y1="50%"
+        y2="50%"
+      />
+      <line
+        shape-rendering="crispEdges"
+        x1="0"
+        x2="100%"
+        y1="50%"
+        y2="50%"
+      />
+    </svg>
+  </button>
+</div>
+`;

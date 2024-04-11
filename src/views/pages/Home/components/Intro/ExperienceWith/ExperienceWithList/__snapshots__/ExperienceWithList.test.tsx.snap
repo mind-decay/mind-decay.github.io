@@ -1,0 +1,35 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders ExperienceWithList component 1`] = `
+<div>
+  <ul
+    class="sc-beySPh iPxRCy"
+  >
+    <li
+      class="sc-guDLey dKvQr"
+    >
+      <svg />
+    </li>
+    <li
+      class="sc-guDLey gfWWLe"
+    >
+      <svg />
+    </li>
+    <li
+      class="sc-guDLey jJoStp"
+    >
+      <svg />
+    </li>
+    <li
+      class="sc-guDLey lalvQY"
+    >
+      <svg />
+    </li>
+    <li
+      class="sc-guDLey fzuWWT"
+    >
+      <svg />
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,8 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`render Loader component 1`] = `
+<div
+  class="sc-guDLey lagWuR"
+  data-testid="loader"
+/>
+`;
