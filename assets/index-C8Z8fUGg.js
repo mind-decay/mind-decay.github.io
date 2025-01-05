@@ -1,6 +1,6 @@
 function __vite__mapDeps(indexes) {
   if (!__vite__mapDeps.viteFileDeps) {
-    __vite__mapDeps.viteFileDeps = ["assets/MainLayout-DpnvrkD_.js","assets/routes-BLPKLxbo.js","assets/Home-DIRfKotY.js"]
+    __vite__mapDeps.viteFileDeps = ["assets/MainLayout-D9pI2RI9.js","assets/routes-BGj2l1z1.js","assets/Home-BRkZIf9R.js"]
   }
   return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
 }
@@ -291,7 +291,7 @@ Error generating stack: `+o.message+`
       }
     }
   }
-`,Av=e=>typeof e=="string"&&["light","dark"].includes(e),Bv=P.createContext(null),Uv=({children:e})=>{const[t,n]=P.useState("dark"),r=t==="light",l=()=>{const o=r?"dark":"light";n(o),localStorage.setItem("theme",o)};return P.useEffect(()=>{const o=localStorage.getItem("theme"),i=window.matchMedia&&window.matchMedia("(prefers-color-scheme: light)").matches;Av(o)?n(o):i&&n("light")},[]),q.jsx(Bv.Provider,{value:{theme:t,toggleTheme:l},children:q.jsx(N0,{theme:r?O0:I0,children:e})})},Bg=D.button`
+`,Av=e=>typeof e=="string"&&["light","dark"].includes(e),Bv=P.createContext(null),Uv=({children:e})=>{const[t,n]=P.useState("dark"),r=t==="light",l=P.useCallback(()=>{const o=r?"dark":"light";n(o),localStorage.setItem("theme",o)},[r]);return P.useEffect(()=>{const o=localStorage.getItem("theme"),i=window.matchMedia&&window.matchMedia("(prefers-color-scheme: light)").matches;Av(o)?n(o):i&&n("light")},[]),q.jsx(Bv.Provider,{value:{theme:t,toggleTheme:l},children:q.jsx(N0,{theme:r?O0:I0,children:e})})},Bg=D.button`
   display: flex;
 
   svg {
@@ -678,4 +678,4 @@ Error generating stack: `+o.message+`
   ${dg}
   ${pg}
   ${hg}
-`,vg=({children:e})=>q.jsxs(q.Fragment,{children:[q.jsx(mg,{}),e]}),gg={Root:"/"},yg=P.lazy(()=>tp(()=>import("./MainLayout-DpnvrkD_.js"),__vite__mapDeps([0,1]))),wg=P.lazy(()=>tp(()=>import("./Home-DIRfKotY.js"),__vite__mapDeps([2,1]))),Sg=()=>q.jsx(P.Suspense,{fallback:q.jsx(Kv,{}),children:q.jsx(vg,{children:q.jsx(Cv,{children:q.jsx(xu,{element:q.jsx(yg,{}),children:q.jsx(xu,{path:gg.Root,element:q.jsx(wg,{})})})})})});function kg(){return q.jsx(Uv,{children:q.jsx(Sg,{})})}const xg=yi.createRoot(document.getElementById("root"));xg.render(q.jsx(Re.StrictMode,{children:q.jsx(Lv,{children:q.jsx(kg,{})})}));export{_g as A,Pg as B,Cg as C,Ig as F,Ug as H,ep as L,Gg as M,Fg as O,Ng as S,Bv as T,jg as a,$g as b,Rg as c,zg as d,Tg as e,Lg as f,Og as g,Bg as h,Hg as i,q as j,Wg as k,Vg as l,Kg as m,Yg as n,Qg as o,Mg as p,Dg as q,P as r,$e as s,Ag as t,D as u,ve as v,Zr as w,T0 as x,pn as y,Eg as z};
+`,vg=({children:e})=>q.jsxs(q.Fragment,{children:[q.jsx(mg,{}),e]}),gg={Root:"/"},yg=P.lazy(()=>tp(()=>import("./MainLayout-D9pI2RI9.js"),__vite__mapDeps([0,1]))),wg=P.lazy(()=>tp(()=>import("./Home-BRkZIf9R.js"),__vite__mapDeps([2,1]))),Sg=()=>q.jsx(P.Suspense,{fallback:q.jsx(Kv,{}),children:q.jsx(vg,{children:q.jsx(Cv,{children:q.jsx(xu,{element:q.jsx(yg,{}),children:q.jsx(xu,{path:gg.Root,element:q.jsx(wg,{})})})})})});function kg(){return q.jsx(Uv,{children:q.jsx(Sg,{})})}const xg=yi.createRoot(document.getElementById("root"));xg.render(q.jsx(Re.StrictMode,{children:q.jsx(Lv,{children:q.jsx(kg,{})})}));export{_g as A,Pg as B,Cg as C,Ig as F,Ug as H,ep as L,Gg as M,Fg as O,Ng as S,Bv as T,jg as a,$g as b,Rg as c,zg as d,Tg as e,Lg as f,Og as g,Bg as h,Hg as i,q as j,Wg as k,Vg as l,Kg as m,Yg as n,Qg as o,Mg as p,Dg as q,P as r,$e as s,Ag as t,D as u,ve as v,Zr as w,T0 as x,pn as y,Eg as z};
