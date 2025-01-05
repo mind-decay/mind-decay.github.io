@@ -26,4 +26,7 @@ export const skillsData = [
   'AntD',
   'MUI',
   'Chakra UI',
+  'Reatom',
+  'Storybook',
+  'Gravity UI',
 ];

@@ -28,6 +28,100 @@ exports[`renders Experience section 1`] = `
             >
               <picture>
                 <source
+                  srcset="/src/assets/images/youDouLogo.png"
+                  type="image/webp"
+                />
+                <img
+                  alt="Senior Frontend-разработчик в YouDo Бизнес"
+                  height="32"
+                  loading="lazy"
+                  src="/src/assets/images/youDouLogo.webp"
+                  width="32"
+                />
+              </picture>
+            </div>
+            <h3
+              class="sc-hLQSwg loxgvM"
+            >
+              Senior Frontend-разработчик в YouDo Бизнес
+            </h3>
+          </div>
+          <p
+            class="sc-jTQCzO gtaWj"
+          >
+            Апрель 2024
+             - 
+            По настоящее время
+          </p>
+        </div>
+        <div
+          class="sc-kFCroH iNDQYz"
+        >
+          <h4
+            class="sc-eDLKkx kkxFzJ"
+          >
+            Обязанности:
+          </h4>
+          <ul
+            class="sc-irLvIq faxKLD"
+          >
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Развитие и поддержка двух проектов компании
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Рефакторинг и оптимизация текущей кодовой базы проектов
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Развитие и рефакторинг внутреннего UI-kit
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Участие в проведении PBR, оценка бизнес требований и декомпозиция задач
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Принятие архитектурных решений и внедрение новых инструментов frontend разработки
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Внедрение сбора аналитики на фронтенде с последующим изучением показателей (Яндекс метрика)
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Взаимодействие с командой для принятия совместных решений
+            </li>
+            <li
+              class="sc-csKJxZ jPnwFw"
+            >
+              Анализ фидбэка от клиентов для дальнейшего улучшения пользовательского опыта
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li
+        class="sc-iBdnpw ezHqEe"
+      >
+        <div
+          class="sc-fsYfdN hUaoJX"
+        >
+          <div
+            class="sc-qZrbh gEguwx"
+          >
+            <div
+              class="sc-jsEeTM cvuTQX"
+            >
+              <picture>
+                <source
                   srcset="/src/assets/images/AgroClubLogo.webp"
                   type="image/webp"
                 />

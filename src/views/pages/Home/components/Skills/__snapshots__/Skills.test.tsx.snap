@@ -15,192 +15,213 @@ exports[`renders Skills section 1`] = `
       class="sc-gLLuof dpOfjX"
     >
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           HTML
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           CSS
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           SCSS
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Styled-Components
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Tailwindcss
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           JavaScript
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           TypeScript
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           React
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Next.js
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Solid.js
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Redux
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Effector
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Webpack
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Vite
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Rollup
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Gulp
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Jest
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           React Testing Library
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Cypress
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Playwright
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           REST API
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Formik
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           React Hook Form
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Axios
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           AntD
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           MUI
         </span>
       </li>
       <li
-        class="sc-iBdnpw jHwcng"
+        class="sc-iBdnpw shfkT"
       >
         <span>
           Chakra UI
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw shfkT"
+      >
+        <span>
+          Reatom
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw shfkT"
+      >
+        <span>
+          Storybook
+        </span>
+      </li>
+      <li
+        class="sc-iBdnpw shfkT"
+      >
+        <span>
+          Gravity UI
         </span>
       </li>
     </ul>

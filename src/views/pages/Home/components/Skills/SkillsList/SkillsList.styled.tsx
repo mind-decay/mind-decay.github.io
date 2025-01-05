@@ -21,6 +21,7 @@ export const StyledSkillsItem = styled.li`
   background: ${({ theme }) => theme.colors.greyBG};
   border-radius: 0.4rem;
   overflow: hidden;
+  cursor: pointer;
 
   span {
     position: relative;
@@ -38,7 +39,7 @@ export const StyledSkillsItem = styled.li`
     content: '';
     background: ${({ theme }) => theme.gradients.mainGradient};
     filter: blur(12px);
-    transition: 0.35s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
 
   &:hover {
