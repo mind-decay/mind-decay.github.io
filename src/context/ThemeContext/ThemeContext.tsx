@@ -1,4 +1,4 @@
-import { ReactNode, createContext, useEffect, useState } from 'react';
+import { ReactNode, createContext, useCallback, useEffect, useState } from 'react';
 import { ThemeProvider as StyledThemeProvider } from 'styled-components';
 
 import { ThemeContextType, ThemeType, isThemeType } from './types';
@@ -16,11 +16,11 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
   const [theme, setTheme] = useState<ThemeType>('dark');
   const isLightTheme = theme === 'light';
 
-  const toggleTheme = () => {
+  const toggleTheme = useCallback(() => {
     const updatedTheme = isLightTheme ? 'dark' : 'light';
     setTheme(updatedTheme);
     localStorage.setItem('theme', updatedTheme);
-  };
+  }, [isLightTheme]);
 
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme');
